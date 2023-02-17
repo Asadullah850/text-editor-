@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Text Editor</title>
+</head>
+<body class="bg-blue-200">
+  <div class=" text-center mt-10">
+    <div class="">
+        <h1 class="text-4xl font-extrabold text-blue-900 ">Text Editor</h1>
+        <hr class="my-2 bg-black h-1"/>
+        <div class="flex justify-between text-center w-[70%] mx-auto my-1 border-black border-x-2  border-b-2 p-2">
+          <div class="left ">
+            <i id="bold" class="fas fa-bold"></i>
+            <i id="italic" class="fas fa-italic"></i>
+            <i id="underline" class="fas fa-underline"></i>
+          </div>
+          <!--  -->
+          <div class="center">
+            <i id="alingn-left" class="fas fa-align-left"></i>
+            <i id="align-center" class="fas fa-align-center"></i>
+            <i id="align-right" class="fas fa-align-right"></i>
+          </div>
+          <!-- ------------- -->
+          <div class="right">
+            <input id="font-size" type="number" value="11">aA
+            <input id="colour-field" type="color">
+          </div>
+        </div>
+        <form action="" name="myForm">
+          <textarea style="font-weight:normal" class="p-4 w-5/6 h-96" name="" id="textarea" cols="120" rows="10"  ></textarea>
+        </form>
+    </div>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/b37ebf4258.js" crossorigin="anonymous"></script>
+  <script src="js.js"></script>
+</body>
+</html>
